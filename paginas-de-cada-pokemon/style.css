@@ -1,0 +1,267 @@
+    /*------------BODY----------*/
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+body.Bulbasaur {
+
+    background-color: #8FE3B2; 
+
+}
+
+body.Ivysaur {
+
+    background-color: #A8D5BA;
+
+}
+
+body.Venusaur {
+
+    background-color: #7AA27A;
+
+}
+
+body.Charmander {
+
+    background-color: #FFD6A5;
+
+}
+
+body.Charmeleon {
+
+    background-color: #FF9B57;
+
+}
+
+body.Charizard {
+
+    background-color: #FF7F3F;
+
+}
+
+
+
+
+    /*------------MAIN----------*/
+
+main {
+
+    flex: 1;
+
+}
+
+
+
+    /*------------H1----------*/
+
+h1 {
+
+    font-family: "BBH Bartle", sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+
+}
+
+h1.Bulbasaur {
+
+    color: #2F8F68;
+
+}
+
+h1.Ivysaur {
+
+    color: #4C9A2A;
+
+}
+
+h1.Venusaur {
+
+    color: #356635;
+
+}
+
+h1.Charmander {
+
+    color: #FF6F3C;
+
+}
+
+h1.Charmeleon {
+
+    color: #D94B2B;
+
+}
+
+h1.Charizard {
+
+    color: #D9361C;
+
+}
+
+
+
+    /*------------H2----------*/
+
+
+h2 {
+
+    font-family: "BBH Bartle", sans-serif;
+    margin-left: 40px;
+
+}
+
+h2.Bulbasaur {
+
+    color: #4FBF8A;
+
+}
+
+h2.Ivysaur {
+
+    color: #D16BA5;
+
+}
+
+h2.Venusaur {
+
+    color: #B94F81;
+
+}
+
+h2.Charmander {
+
+    color: #FF3B30;
+
+}
+
+h2.Charmeleon {
+
+    color: #FF5733;
+
+}
+
+h2.Charizard {
+
+    color: #F44336;
+
+}
+
+
+
+
+     /*------------H3----------*/
+
+h3 {
+
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    font-size: 20px; 
+
+}
+
+
+
+
+
+    /*------------H3----------*/
+
+.sticker0 {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    transform: translate(-80px, 40px);
+
+}
+
+.sticker1 {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    transform: translate(-300px, 40px);
+
+}
+
+.sticker2 {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    transform: translate(-80px, 40px);
+
+}
+
+
+
+    /*------------FOOTER----------*/
+
+footer {
+
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+
+
+}
+
+footer.Bulbasaur {
+
+    background-color: #2F8F68;
+
+}
+
+footer.Ivysaur {
+
+    background-color: #4C9A2A;
+
+}
+
+footer.Venusaur {
+
+    background-color: #356635;
+
+}
+
+footer.Charmander {
+
+    background-color: #FF6F3C;
+
+}
+
+footer.Charmeleon {
+
+    background-color: #D94B2B;
+
+}
+
+footer.Charizard {
+
+    background-color: #D9361C;
+
+}
